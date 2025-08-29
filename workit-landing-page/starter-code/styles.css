@@ -27,7 +27,7 @@ html {
 
 .landing-main-content__features {
     background-color: #cab9d8;
-    padding: 0 20px;
+    padding: 114px 0 20px;
 }
 
 .features--list li {
@@ -47,7 +47,14 @@ html {
     margin: 0;
 }
 
-
+.image-founder {
+    max-width: 86%;
+    margin: 0 auto;
+    display: block;
+    z-index: -1;
+    position: relative;
+    top: 64px;
+}
 
 .landing-header__heading-underline{
     text-decoration: underline;
@@ -101,11 +108,11 @@ html {
     margin: 0 auto;
     max-width: 98%;
 
-    position: relative;
-    top: -50px;
+    position: absolute;
+    top: 270px;
     z-index: 1;
 
-    background-color: #24053E;
+    background-color: transparent;
 }
 
 .features--list__Item{
